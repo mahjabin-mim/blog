@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Understanding Web Development",
+      "preview": "Web development is the process of building websites....",
+      "content": "Web development is the process of building websites and web applications that run on the internet. It involves both frontend and backend technologies. Frontend development focuses on what users see and interact with, while backend development handles server-side logic, databases, and authentication. Modern web development often uses frameworks like React, Next.js, and Node.js to build fast and scalable applications. Learning web development requires practice, consistency, and understanding of core concepts such as HTML, CSS, JavaScript, APIs, and databases."
+    },
+    {
+      "id": 2,
+      "title": "Why Next.js is Powerful",
+      "preview": "Next.js is a React framework that provides powerful....",
+      "content": "Next.js is a React framework that provides powerful features like Server-Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Regeneration (ISR). These features improve performance and SEO. With Next.js, developers can create dynamic applications while still benefiting from optimized page loading. It also includes built-in routing, API routes, and image optimization. Many modern companies use Next.js because it simplifies development and improves user experience. It is widely used for blogs, e-commerce websites, dashboards, and large-scale production applications."
+    },
+    {
+      "id": 3,
+      "title": "My Journey in Programming",
+      "preview": "Programming is a skill that improves with continuous....",
+      "content": "Programming is a skill that improves with continuous practice and problem solving. When I started learning programming, I focused on understanding basic concepts such as variables, loops, conditions, and functions. Over time, I moved to data structures and algorithms, which are very important for competitive programming and technical interviews. Building small projects helped me gain confidence and real-world experience. Now, I try to follow clean code principles, write reusable components, and understand system design concepts to become a better software engineer."
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Databases",
+      "preview": "A database is used to store and manage data efficiently....",
+      "content": "A database is used to store and manage data efficiently. Applications use databases to save user information, blog posts, products, and transactions. There are two main types of databases: SQL and NoSQL. SQL databases like MySQL and PostgreSQL use structured tables with relationships. NoSQL databases like MongoDB store data in flexible formats such as documents. Choosing the right database depends on project requirements, scalability needs, and data structure. Understanding database design, normalization, and indexing is very important for building scalable systems."
+    },
+    {
+      "id": 5,
+      "title": "Building REST APIs",
+      "preview": "REST APIs allow communication between frontend and....",
+      "content": "REST APIs allow communication between frontend and backend systems. They use HTTP methods such as GET, POST, PUT, and DELETE to perform operations. For example, a GET request retrieves data, while a POST request creates new data. APIs usually return data in JSON format. When building APIs, it is important to follow proper status codes, validation rules, and error handling. Secure APIs should also include authentication and authorization mechanisms such as JWT tokens. Well-designed APIs make applications modular, scalable, and easier to maintain."
+    }
+  ]
+}
