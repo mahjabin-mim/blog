@@ -21,7 +21,6 @@ export default function Blog({ blog }: { blog: Blog }) {
 
   return (
     <div>
-      <Navbar />
       <h1>{blog.title}</h1>
       <p>{blog.content}</p>
     </div>

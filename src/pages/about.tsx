@@ -4,8 +4,6 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <Navbar />
-
       <div className="container">
         <Image
           src="/propic.png"

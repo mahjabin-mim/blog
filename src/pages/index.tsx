@@ -11,8 +11,6 @@ type Blog = {
 export default function Home({ blogs }: { blogs: Blog[] }) {
   return (
     <>
-      <Navbar />
-
       {/* <div
         style={{
           display: "grid",
@@ -44,7 +42,7 @@ export default function Home({ blogs }: { blogs: Blog[] }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`${API_URL}/blogs `);
+  const res = await fetch(`${API_URL}/blogs`);
   const blogs = await res.json();
 
   return {
